@@ -1,0 +1,17 @@
+﻿{
+  "name": "personal-tools-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal tools website with extensible tool modules",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "node server/index.js",
+    "start": "node server/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
